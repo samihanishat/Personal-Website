@@ -18,8 +18,8 @@
 
 /* Nav Related Style*/
 .navbar{
-    margin-left: 1100px;
     display: flex;
+    justify-content: flex-end;
     gap:35px
 }
 .navbar li{
@@ -58,4 +58,72 @@
 }
 .title{
     font-weight: 700;
+}
+
+/* Projects */
+.projects{
+    margin-top: 50px;
+    background: rgb(229, 229, 229);
+    padding: 120px 0px 200px 0px;
+    margin-bottom: 80px;
+}
+.projects h3{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.project-container{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; */
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.card{
+    border-radius: 19.74px;
+    box-shadow: 0px 6.58px 19.74px 0px rgba(0, 0, 0, 0.07);
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 350px;
+    padding: 18px;
+}
+.card img{
+    width: 343.54px;
+    height: 213.23px;
+    
+}
+.card h4{
+    color: rgb(54, 57, 88);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 6px 0px;
+}
+.work{
+    background: url(../shapes/Group_33094_1.png) no-repeat;
+    background-size: 906px 225px;
+    border-radius: 30px;
+    padding: 75px;
+    background-position: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+.work button{
+    width: 200px;
+    height: 60px;
+    padding: 18px;
+}
+.work h1{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+}
+
+@media screen and (max-width:576px) {
+    /* .navbar{
+        margin: 40px auto;
+    } */
 }
