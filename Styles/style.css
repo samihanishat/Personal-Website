@@ -1,7 +1,7 @@
 
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.roboto {
+.roboto{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -9,7 +9,7 @@
 
   /* Bebas Neue */
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-  .bebas-neue {
+  .bebas-neue{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -59,6 +59,20 @@
 .title{
     font-weight: 700;
 }
+.description h1{
+    font-size: 5rem;
+}
+#mist{
+    color: rgb(255, 131, 103);
+}
+.description h3{
+    font-size: 3rem;
+}
+.description p{
+    color: rgb(62, 62, 62);
+    font-size: 1rem;
+}
+
 
 /* Projects */
 .projects{
@@ -70,6 +84,13 @@
 .projects h3{
     text-align: center;
     margin-bottom: 80px;
+    font-size: 3rem;
+}
+.bluish{
+    color: rgb(54, 57, 88);
+}
+#mist2{
+    color: rgb(244, 96, 96);
 }
 .project-container{
     /* display: grid;
@@ -100,6 +121,10 @@
     font-size: 1.5rem;
     margin: 6px 0px;
 }
+.card p{
+   color: rgb(108, 108, 108); 
+   font-size: 1rem;
+}
 .work{
     background: url(../shapes/Group_33094_1.png) no-repeat;
     background-size: 906px 225px;
@@ -122,6 +147,26 @@
     font-size: 4rem;
 }
 
+
+footer{
+    text-align: center;
+}
+footer h4{
+    color: rgb(105, 104, 113);
+    font-size: 1.5rem;
+    margin: 16px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(54, 57, 88);
+    font-size: 2.25rem;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
 @media screen and (max-width:576px) {
     /* .navbar{
         margin: 40px auto;
